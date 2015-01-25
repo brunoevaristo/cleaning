@@ -29,6 +29,32 @@ The following files are available for the train and test data. Their description
 * 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 * 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
+
+The set of variables that were estimated from these signals are: 
+
+* mean(): Mean value
+* std(): Standard deviation
+
 Note:
 
 Features are normalized and bounded within [-1,1].
